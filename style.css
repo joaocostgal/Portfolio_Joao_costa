@@ -1,0 +1,150 @@
+
+:root{
+    --cor1: #FFFFFF;
+    --cor2: #FFBF00;
+    --cor3: #4B4B4B;
+    --cor4: #373737;
+    --cor5: #262626;
+}
+html{
+    
+    scroll-padding-top: 35px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: var(--cor5);
+}
+a:hover{
+    color: var(--cor1);
+}
+div{
+    height: 300px;
+    width: 100%;
+    font-size: 15px;
+}
+body{
+    margin: 0;
+    font-family: monospace;    
+}
+ul{
+    list-style-type:none ;
+}
+li{
+    margin-left: -40px;
+}
+head{
+    width: 100vh;
+    
+}
+nav{
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    background-color: var(--cor1);
+    position: fixed;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.253);
+}
+button{
+    height: 100%;
+    width: 150px;
+    border: none;
+    background-color: var(--cor1);
+    color: #262626;
+    font-size: medium;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: var(--cor4);
+    color: var(--cor1);
+}
+.info_perfil{
+    display: flex;
+    height: 100vh;
+}
+.txt_perfil{
+    width: 50%;
+    background-color: var(--cor3);
+    height: 100vh;
+    text-align: center;
+    padding-top: 250px;
+    color: #FFFFFF;
+}
+.foto_perfil{
+    width: 50%;
+    background-color: var(--cor4);
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.about_me{
+    display: flex;
+    color: var(--cor5);
+}
+.txt_about_me{
+    width: 50%;
+    background-color: var(--cor2);
+    color: var(--cor4);
+}
+.txt_about_me2{
+    width: 50%;
+    background-color: var(--cor1);
+}
+.projetos{
+   display: flex;
+   padding-top: 50px;
+   height: 100%;
+   background-color: var(--cor5);
+}
+.card{
+    width: 20%;
+    height: 100vh;
+    display: box;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: var(--cor1);
+}
+.card_img:hover{
+    background-color: var(--cor1);
+    color: var(--cor4);
+    
+}
+.card_img{
+    background-color: var(--cor3);
+    height: 500px;
+    padding: 10px;
+    transition: 1s;
+}
+
+.img1{
+    width: 100%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.253);
+}
+    
+.img_perfil{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-top: 150px;
+}
+.txt_1_aboutme{
+    margin: auto;
+    margin-top: 50px;
+    width: 200px;
+}
+.list_skills{
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 200px;
+}
+.nome{
+    color: var(--cor1);
+}
+.texto{
+    margin: 50px;
+}
